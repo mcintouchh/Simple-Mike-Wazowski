@@ -62,5 +62,25 @@
     border: 2px solid #000000;
     clip-path: polygon(0 54%, 100% 39%, 99% 100%, 0% 100%);
     top: 90px;
-    left: -80pxx\; 
+    left: -80px; 
+}
+.left-horn{
+    width: 20px;
+    height:20px;
+    position:absolute;
+    border-radius: 0% 100% 72% 28% / 0% 42% 58% 100%    ;
+    background-color: #C8F902;
+    top: -120px;
+    left: -90px;     
+}
+
+.right-horn{
+    width: 20px;
+    height:20px;
+    position:absolute;
+    border-radius: 0% 100% 72% 28% / 0% 42% 58% 100%    ;
+    background-color: #C8F902;
+    top: -120px;
+    left: 70px; 
+    transform: rotate(90deg);
 }
